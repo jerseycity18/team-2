@@ -1,0 +1,18 @@
+create table user(
+   Id,
+   Status,
+   Type ()
+   Gender (),
+   Zip,
+   Borough,
+   E-mail,
+   Phone,
+   Employed,
+   Age,
+   Married,
+   Interests,
+   Preferred_Communication,
+   BestTimes_To_Socialize,
+   Travel_Independent,
+   Match_Id,	
+)
