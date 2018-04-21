@@ -1,6 +1,7 @@
 create table user(
    Id int not null AUTO_INCREMENT,
-   Match_Id int,	
+   Match_Id int,
+   Name varchar(25),
    Status char,
    Type char,
    Gender char,
