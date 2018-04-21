@@ -6,8 +6,8 @@ create table user(
    Gender char,
    Zip varchar(5),
    Borough varchar(10),
-   Email varchar(255),
-   Phone varchar(255),
+   Email varchar(25),
+   Phone varchar(10),
    Employed boolean,
    Age int,
    Married boolean,
@@ -15,5 +15,7 @@ create table user(
    Preferred_Communication varchar(255),
    BestTimes_To_Socialize varchar(255),
    Travel_Independent boolean,
+   Days_Since_Matched int,
+   About_Me varchar(255),
    PRIMARY KEY (Id)
 );
